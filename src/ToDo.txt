@@ -1,0 +1,16 @@
+ToDo:
+-replace favicon
+-get react router working
+
+Doing:
+
+Done:
+-initialize repo
+
+
+
+
+
+
+Goals for this programing session:
+-get react router working

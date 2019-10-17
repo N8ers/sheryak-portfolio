@@ -1,16 +1,14 @@
 ToDo:
 -replace favicon
--get react router working
 
 Doing:
 
 Done:
 -initialize repo
-
+-get react router working
 
 
 
 
 
 Goals for this programing session:
--get react router working

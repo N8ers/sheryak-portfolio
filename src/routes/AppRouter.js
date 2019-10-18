@@ -5,7 +5,7 @@ import HomePage from '../components/HomePage';
 import PortfolioPage from '../components/PortfolioPage';
 import ContactPage from '../components/ContactPage';
 import BlogPage from '../components/BlogPage';
-import '../AppRouter.css';
+import '../styles/AppRouter.css';
 
 const AppRouter = () => {
   return (

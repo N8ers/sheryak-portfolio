@@ -1,14 +1,19 @@
 ToDo:
 -replace favicon
+-set base styling for home
+-set base styling for portfolio
+-set base styling for contact
+-set base styling for blog
+-set base styling for background
 
 Doing:
 
 Done:
 -initialize repo
 -get react router working
-
-
-
-
+-add blog section
+-figure out styling for 'selected tab'
+-set styling for header
 
 Goals for this programing session:
+

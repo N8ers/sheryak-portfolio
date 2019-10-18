@@ -5,12 +5,12 @@ import HomePage from '../components/HomePage';
 import PortfolioPage from '../components/PortfolioPage';
 import ContactPage from '../components/ContactPage';
 import BlogPage from '../components/BlogPage';
-import '../AppRouter.css';
+import '../styles/AppRouter.css';
 
 const AppRouter = () => {
   return (
-    <div className="body">
-      <BrowserRouter>
+    <div className="container">
+      <BrowserRouter className="content">
         <Header />
         <Switch>
           <Route path="/" component={HomePage} exact={true} />

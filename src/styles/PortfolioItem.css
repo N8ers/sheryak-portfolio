@@ -1,0 +1,20 @@
+.portfilio-item-container {
+    border: 1px solid white;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 30%;
+    background-color: rgb(0,0,0,0.5);
+    color: white;
+}
+
+.portfilio-item-img-container {
+    border: 1px solid white;
+}
+
+.portfilio-item-img {
+    width: 100px;
+}
+
+.portfolio-item-btn-container {
+    background-color: rgb(0,0,0,0.5);
+}

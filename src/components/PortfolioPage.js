@@ -1,11 +1,17 @@
 import React from 'react';
+import PortfolioItem from "./PortfolioItem";
+import "../styles/PortfolioPage.css";
 
-const PortfolioPage = () => {
-  return (
-    <div>
-      I am the PortfolioPage!
-        </div>
-  )
+class PortfolioPage extends React.Component {
+
+  render() {
+    return (
+      <div>
+        portfolio page
+      </div >
+    )
+  }
+
 }
 
 export default PortfolioPage;

@@ -10,7 +10,7 @@ import '../styles/AppRouter.css';
 const AppRouter = () => {
   return (
     <div className="container">
-      <BrowserRouter className="content">
+      <BrowserRouter>
         <Header />
         <Switch>
           <Route path="/" component={HomePage} exact={true} />

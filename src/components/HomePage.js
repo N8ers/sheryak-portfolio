@@ -1,10 +1,17 @@
 import React from 'react';
+import '../styles/HomePage.css';
 
 const HomePage = () => {
   return (
     <div>
-      Boy Howdy! I sure am glad to be home :)
-        </div>
+
+      {/* heading */}
+      <div className="home-container home-container-heading">
+        <h1>hi me nathan</h1>
+        <h3>Software Developer</h3>
+      </div>
+
+    </div>
   )
 }
 

@@ -1,10 +1,12 @@
 ToDo:
 -replace favicon
+-set up scaling for background img
 -set base styling for home
 -set base styling for portfolio
 -set base styling for contact
 -set base styling for blog
 -set base styling for background
+-add typed.js or something similar to the home page
 
 Doing:
 

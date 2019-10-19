@@ -9,8 +9,8 @@ import '../styles/AppRouter.css';
 
 const AppRouter = () => {
   return (
-    <div className="body">
-      <BrowserRouter>
+    <div className="container">
+      <BrowserRouter className="content">
         <Header />
         <Switch>
           <Route path="/" component={HomePage} exact={true} />

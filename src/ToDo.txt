@@ -18,4 +18,5 @@ Done:
 -set styling for header
 
 Goals for this programing session:
+-style portfolio components
 

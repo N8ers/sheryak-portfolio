@@ -1,14 +1,19 @@
 import React from 'react';
+import HomePageTyping from './HomePageTyping';
 import '../styles/HomePage.css';
 
 const HomePage = () => {
+
+
+
   return (
     <div>
-
-      {/* heading */}
       <div className="home-container home-container-heading">
-        <h1>hi me nathan</h1>
-        <h3>Software Developer</h3>
+        <h1>Nathan</h1>
+        <h1>Sheryak</h1>
+        <HomePageTyping strings={[
+          'Software Developer...'
+        ]} />
       </div>
 
     </div>

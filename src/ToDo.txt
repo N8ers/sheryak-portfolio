@@ -1,6 +1,5 @@
 ToDo:
 -replace favicon
--set up scaling for background img
 -set base styling for home
 -set base styling for portfolio
 -set base styling for contact
@@ -16,6 +15,7 @@ Done:
 -add blog section
 -figure out styling for 'selected tab'
 -set styling for header
+-set up scaling for background img
 
 Goals for this programing session:
 -style portfolio components

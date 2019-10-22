@@ -10,7 +10,7 @@ class PortfolioPage extends React.Component {
     super(props);
 
     this.state = [
-      { title: "electric weather", img: PlaceholderImg, description: "Run a weather app on your local computer, using Electron!", githubLink: "https://github.com/N8ers", liveLink: "https://github.com/N8ers" },
+      { title: "electric weather", img: PlaceholderImg, description: "Run a weather app on your local computer, using Electron!", githubLink: "https://github.com/N8ers" },
       { title: "react todo", img: PlaceholderImg, description: "This is a project!", githubLink: "https://github.com/N8ers", liveLink: "https://github.com/N8ers" },
       { title: "honey-dew", img: PlaceholderImg, description: "This is a project!", githubLink: "https://github.com/N8ers", liveLink: "https://github.com/N8ers" },
       { title: "buds n brews", img: PlaceholderImg, description: "This is a project!", githubLink: "https://github.com/N8ers", liveLink: "https://github.com/N8ers" },

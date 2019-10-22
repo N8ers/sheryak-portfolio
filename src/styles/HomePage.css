@@ -4,3 +4,12 @@
     width: 50%;
     color: white;
 }
+
+.home-container-heading-top {
+    font-size: 6em;
+    margin-bottom: -90px;
+}
+
+.home-container-heading-btm {
+    font-size: 6em;
+}

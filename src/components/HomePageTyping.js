@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'typed.js';
+import '../styles/HomePageTyping.css';
 
 class HomePageTyping extends React.Component {
 	componentDidMount() {
@@ -9,7 +10,7 @@ class HomePageTyping extends React.Component {
 		const options = {
 			strings: strings,
 			typeSpeed: 50,
-			backSpeed: 50
+			startDelay: 1000
 		};
 
 		this.typed = new Typed(this.el, options);
@@ -21,7 +22,7 @@ class HomePageTyping extends React.Component {
 
 	render() {
 		return (
-			<div className="wrap">
+			<div className="wrap typer-wrapper">
 				<div className="type-wrap">
 					<span
 						style={{ whiteSpace: 'pre' }}

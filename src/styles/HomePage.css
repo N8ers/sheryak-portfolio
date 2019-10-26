@@ -1,15 +1,36 @@
 .home-container {
+    margin: 0;
+    padding: 0;
     background-color: rgb(0,0,0,0.5);
-    margin: 0 auto;
+    margin: 7vh auto;
     width: 50%;
     color: white;
+    /* font-family: 'Staatliches', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home-container-heading {
+    padding: 0;
 }
 
 .home-container-heading-top {
-    font-size: 6em;
-    margin-bottom: -90px;
+    font-size: 10vw;
+    margin: 0;
 }
 
 .home-container-heading-btm {
-    font-size: 6em;
+    font-size: 10vw;
+    margin: 0;
+}
+
+@media (max-width: 830px){
+    .home-container-heading-top{
+        /* color: pink; */
+    }
+
+    .home-container-heading-btm {
+        /* color: greenyellow; */
+    }
 }

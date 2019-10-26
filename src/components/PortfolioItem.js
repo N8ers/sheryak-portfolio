@@ -7,7 +7,11 @@ import "../styles/PortfolioItem.css";
 
 const PortfolioItem = (props) => {
 	return (
-		<Grid item lg={4} md={4} sm={6} xs={12}>
+		// NATHAN: once you add a 3rd project, change to the below line
+		// right now, it looks better as is, but this will be a grid of 3s
+		// also check PortfolioPage.css max-width
+		// <Grid item lg={4} md={4} sm={6} xs={12}>
+		<Grid item lg={6} md={6} sm={6} xs={12}>
 			<div className="portfilio-item-container">
 				<div className="portfilio-item-title">{props.title}</div>
 				<div className="portfilio-item-img-container">

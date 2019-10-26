@@ -8,6 +8,7 @@ Goals for this programing session:
     -make sure links are correct
     -style buttons better (& fix to bottom of component)
     -comment out incomplete projects
+    -replace images
 
 --BLOG
     -add blog item component

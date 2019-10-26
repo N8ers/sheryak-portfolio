@@ -1,24 +1,43 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import "../styles/ContactPage.css";
 
 const ContactPage = () => {
 	return (
 		<div className="contact-container">
-			<h1>Nathan Sheryak</h1>
-			<h3>Software Developer</h3>
+			<h1 className="contact-header">Hi, I'm Nathan </h1>
 			<hr />
 
-			<span>
-				<a><FontAwesomeIcon icon={faGithub} /></a>
-				<a><FontAwesomeIcon icon={faGithub} /></a>
-				<a><FontAwesomeIcon icon={faGithub} /></a>
-			</span>
+			<div className="contact-p">
+				<p>I'm a Software Developer.</p>
+				<p>I make websites, apps, and APIs. In my spare time I program hardware, build DIY electronics, write blog posts, and play music.</p>
+				<p>Feel free to connect on LinkedIn or check out some code on GitHub.</p>
+			</div>
 
-			<p>I'm a web developer with a background in music media production. I make websites, and applications that focus on user interfaces that have intuitive and beautiful design. In my spare time I program hardware, build DIY electronics, write blog posts, and play music. If you want to reach out please do at, Nathan Sheryak.</p>
+			<div className="social-icon-container">
 
-		</div>
+				<a href="https://github.com/N8ers"
+					target="_blank"
+					className="social-icon">
+					<Button variant="contained">
+						<FontAwesomeIcon size="2x" icon={faGithub} />
+					</Button>
+				</a>
+
+				<a href="https://www.linkedin.com/in/nathan-sheryak/"
+					target="_blank"
+					className="social-icon">
+					<Button variant="contained">
+						<FontAwesomeIcon size="2x" icon={faLinkedin} />
+					</Button>
+				</a>
+
+			</div>
+			<br />
+
+		</div >
 	)
 }
 

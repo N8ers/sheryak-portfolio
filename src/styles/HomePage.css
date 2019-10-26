@@ -34,3 +34,35 @@
         /* color: greenyellow; */
     }
 }
+
+@media (max-width: 700px){
+    .home-container {
+        width: 80%;
+    }
+
+    .home-container-heading-top {
+        font-size: 16vw;
+        margin: 0;
+    }
+    
+    .home-container-heading-btm {
+        font-size: 16vw;
+        margin: 0;
+    }
+}
+
+@media (max-width: 400px){
+    .home-container {
+        width: 90%;
+    }
+
+    .home-container-heading-top {
+        font-size: 18vw;
+        margin: 0;
+    }
+    
+    .home-container-heading-btm {
+        font-size: 18vw;
+        margin: 0;
+    }
+}

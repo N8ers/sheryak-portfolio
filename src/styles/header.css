@@ -1,5 +1,5 @@
 .header {
-    background: rgb(0,0,0, 0.3 );
+    background: rgb(0,0,0, 0.4 );
     padding: 10px 20px;
     text-align: end;
 }
@@ -29,6 +29,17 @@
 
 @media (max-width: 600px){
     .nav-link-item-last {
-        border-right: 0px solid white;
+        border-right: 2px solid white;
+    }
+
+    .header {
+        background: rgb(0,0,0, 0.4 );
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .nav-link-item-last {
+        margin-right: 0px;
+        border-right: 2px solid white;
     }
 }

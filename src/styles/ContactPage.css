@@ -4,3 +4,29 @@
     width: 50%;
     color: white;
 }
+
+.contact-header{
+    margin: 15px auto;
+    text-align: center;
+}
+
+.social-icon-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 10px;
+    border-radius: 50%;
+    color: rgb(169,169,169, 0.9);
+}
+
+.contact-p {
+    padding: 30px;
+}
+
+@media (max-width: 750px){
+    .contact-container {
+        width: 80%;
+    }
+}

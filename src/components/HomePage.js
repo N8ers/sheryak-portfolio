@@ -4,10 +4,10 @@ import '../styles/HomePage.css';
 
 const HomePage = () => {
   return (
-    <div>
-      <div className="home-container home-container-heading">
-        <h1 className="home-container-heading-top">Nathan</h1>
-        <h1 className="home-container-heading-btm">Sheryak</h1>
+    <div className="home-container">
+      <div className="home-container-heading">
+        <div className="home-container-heading-top">Nathan</div>
+        <div className="home-container-heading-btm">Sheryak</div>
         <HomePageTyping strings={[
           'Software Developer...'
         ]} />

@@ -13,7 +13,7 @@ const PortfolioItem = (props) => {
 				<div className="portfilio-item-img-container">
 					<img className="portfilio-item-img" src={props.img} />
 				</div>
-				<div><p>{props.description}</p></div>
+				<div><p className="portfilio-item-description">{props.description}</p></div>
 				<div className="portfolio-item-btn-container">
 					<button className="portfolio-item-btn-item">
 						<FontAwesomeIcon icon={faGithub} />

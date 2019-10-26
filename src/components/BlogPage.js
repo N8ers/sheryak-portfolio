@@ -10,7 +10,7 @@ class BlogPage extends React.Component {
 
     this.state = [
       { title: "Enough to Git You Started...", subTitle: "A beginners guide to using Git", img: Blog1, link: "https://medium.com/@nathanraysheryak/enough-to-git-you-started-32d941730cb7" },
-      { title: "blog 2", subTitle: "this is what I'm about", img: PlaceholderImg, link: "google.com" },
+      // { title: "blog 2", subTitle: "this is what I'm about", img: PlaceholderImg, link: "google.com" },
     ]
   }
 

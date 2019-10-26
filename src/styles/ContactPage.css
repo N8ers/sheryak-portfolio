@@ -4,3 +4,9 @@
     width: 50%;
     color: white;
 }
+
+@media (max-width: 750px){
+    .contact-container {
+        width: 80%;
+    }
+}

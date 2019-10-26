@@ -28,6 +28,7 @@ class PortfolioPage extends React.Component {
           {
             this.state.map((item) => {
               return <PortfolioItem
+                key={item.title}
                 title={item.title}
                 img={item.img}
                 description={item.description}

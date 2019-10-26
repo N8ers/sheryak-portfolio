@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
+import { Grid, Button } from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -15,15 +15,30 @@ const PortfolioItem = (props) => {
 				</div>
 				<div><p className="portfilio-item-description">{props.description}</p></div>
 				<div className="portfolio-item-btn-container">
-					<button className="portfolio-item-btn-item">
-						<FontAwesomeIcon icon={faGithub} />
-						<a target="_blank" href={props.githubLink}>GitHub</a>
-					</button>
+
+
+					<a
+						className="portfolio-item-btn-item"
+						target="_blank"
+						href={props.githubLink}>
+						<Button variant="contained" className="portfolio-item-btn-btn">
+							<FontAwesomeIcon icon={faGithub} />
+							<span>GitHub</span>
+						</Button>
+					</a>
+
 					{
-						props.liveLink && <button className="portfolio-item-btn-item">
-							<FontAwesomeIcon icon={faLaptopCode} />
-							<a target="_blank" href={props.liveLink}>live!</a>
-						</button>
+						props.liveLink &&
+
+						<a
+							className="portfolio-item-btn-item"
+							target="_blank"
+							href={props.liveLink}>
+							<Button variant="contained" className="portfolio-item-btn-btn">
+								<FontAwesomeIcon icon={faLaptopCode} />
+								<span>live!</span>
+							</Button>
+						</a>
 					}
 				</div>
 			</div>

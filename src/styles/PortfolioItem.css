@@ -28,10 +28,14 @@
 }
 
 .portfolio-item-btn-container {
-    background-color: rgb(0,0,0,0.5);
+    text-align: center;
 }
 
 .portfolio-item-btn-item {
-    width: 50%;
+    text-align: center;
+    margin: 5px;
 }
 
+.portfolio-item-btn-btn {
+    width: 100px;
+}

@@ -1,26 +1,32 @@
-ToDo:
--replace favicon
--set base styling for home
--set base styling for portfolio
--set base styling for contact
--set base styling for blog
--set base styling for background
--add typed.js or something similar to the home page
-
-Doing:
-
-Done:
--initialize repo
--get react router working
--add blog section
--figure out styling for 'selected tab'
--set styling for header
--set up scaling for background img
-
 Goals for this programing session:
--style portfolio components
+--HOMEPAGE
+    -larger letters
+    -better font
+    -make sure it scales propperly
 
-so far...
-centered and enlargened portfolio images
-add btn margin
-background image stay same even if scrolling
+--PORTFOLIO
+    -make sure links are correct
+    -style buttons better (& fix to bottom of component)
+    -comment out incomplete projects
+
+--BLOG
+    -add blog item component
+
+--CONTACT
+    -work on bio (what is mission statement)
+    -get more icons
+
+/////////////////////////////////////////////////////////////////
+
+Future
+--HOMEPAGE
+
+--PORTFOLIO
+    -get green box shadow to be fixed 
+    (this needs to be done after 3 projects have been made)
+    -use that cool scroll bar instead of the bs default one
+    -sticky header
+
+--BLOG
+
+--CONTACT

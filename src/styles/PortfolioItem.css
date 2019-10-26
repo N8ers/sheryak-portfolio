@@ -1,10 +1,11 @@
 .portfilio-item-container {
     border: 1px solid white;
     border-radius: 10px;
-    margin: 20px;
     margin: 0 auto;
-    max-width: 350px;
-    background-color: rgb(0,0,0,0.5);
+    height: 300px;
+    margin-bottom: 10px;
+    max-width: 290px;
+    background-color: rgb(0,0,0,0.75);
     color: white;
 }
 
@@ -13,12 +14,17 @@
     font-size: 2em;
 }
 
+.portfilio-item-description {
+    padding: 0 15px;
+}
+
 .portfilio-item-img-container {
     border: 1px solid white;
+    text-align: center;
 }
 
 .portfilio-item-img {
-    width: 100px;
+    width: 200px;
 }
 
 .portfolio-item-btn-container {

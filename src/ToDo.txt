@@ -20,3 +20,7 @@ Done:
 Goals for this programing session:
 -style portfolio components
 
+so far...
+centered and enlargened portfolio images
+add btn margin
+background image stay same even if scrolling

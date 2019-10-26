@@ -1,0 +1,71 @@
+.blog-item-container {
+ border: 1px solid black;
+ padding: 5px;
+ width: 50%;
+ max-width: 575px;
+ margin: 5px auto;
+ background-color: rgb(0,0,0,0.75);
+ color: white;
+}
+
+.blog-item-img-container {
+    width: 230px;
+}
+
+.blog-item-img {
+    height: 130px;
+    width: 190px;
+    overflow: hidden;
+}
+
+.blog-item-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.blog-item-subtitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.blog-item-link {
+    text-decoration: none;
+}
+
+@media (max-width: 1050px){
+    .blog-item-container {
+        width: 75%;
+    }
+}
+
+@media (max-width: 650px){
+    .blog-item-img {
+        height: 120px;
+        width: 175px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 600px){
+    .blog-item-container {
+        width: 80%;
+    }
+
+    .blog-item-container-left{
+        width: 100%;
+    }
+    
+    .blog-item-container-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-item-img-container {
+        width: 100%;
+    }
+
+    .blog-item-img {
+        display: block;
+        margin: 0 auto;
+    }
+}

@@ -13,7 +13,7 @@ class PortfolioPage extends React.Component {
 
     this.state = [
       { title: "electric weather", img: ElectricWeather, description: "Run a weather app on your local computer, using Electron!", githubLink: "https://github.com/N8ers/hardware_weather" },
-      { title: "react todo", img: ReactTodo, description: "Check out this fun todo list app built with Reactjs!", githubLink: "https://github.com/N8ers/react-todo", liveLink: "https://github.com/N8ers" },
+      { title: "react todo", img: ReactTodo, description: "Check out this fun todo list app built with Reactjs!", githubLink: "https://github.com/N8ers/react-todo", liveLink: "https://react-todo-sheryak.firebaseapp.com" },
       // { title: "honey-dew", img: PlaceholderImg, description: "This is a project!", githubLink: "https://github.com/N8ers", liveLink: "https://github.com/N8ers" },
       // { title: "buds n brews", img: PlaceholderImg, description: "This is a project!", githubLink: "https://github.com/N8ers", liveLink: "https://github.com/N8ers" },
       // { title: "budgeter", img: PlaceholderImg, description: "This is a project!", githubLink: "https://github.com/N8ers", liveLink: "https://github.com/N8ers" },
